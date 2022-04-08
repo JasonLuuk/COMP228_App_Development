@@ -6,9 +6,9 @@
  <h3 align="center" backgroundcolor="red">⭐ If the code has helped you, please stars this, thank you very much!</h3>
  
  ## Must See Before Read My code
-Operating System: Win10
-Programming Language: Swift 5.5
-IDE: Xcode 13
+* Operating System: Win10
+* Programming Language: Swift 5.5
+* IDE: Xcode 13
 All codes are related to labs and assignments.
 
  ## Module Specification
