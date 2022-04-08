@@ -15,3 +15,10 @@
 * Year: Session 2021-22
 * Semester: First Semester
 * Lectuer: Mr P Jimmieson  Phil@liverpool.ac.uk (One of my favorite lecturers)
+
+ ## Module Results
+* Assignment 1: 86
+* Assignment 2: 94
+* Assignment 3: 100
+* Fianl  Exam : 76
+* Module Mark : 83
