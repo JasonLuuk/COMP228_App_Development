@@ -9,9 +9,9 @@
 * Operating System: Win10
 * Programming Language: Swift 5.5
 * IDE: Xcode 13
-* All codes are related to labs and assignments and all codes were uploaded after the assignment deadline
+* All codes are related to labs and assignments and all codes were uploaded after the assignment deadline, all personal information is taken from the University's public website.
 
  ## Module Specification
 * Year: Session 2021-22
-* Semester: Second Semester
+* Semester: First Semester
 * Lectuer: Mr P Jimmieson  Phil@liverpool.ac.uk (One of my favorite lecturers)
