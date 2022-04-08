@@ -9,7 +9,7 @@
 * Operating System: Win10
 * Programming Language: Swift 5.5
 * IDE: Xcode 13
-* All codes are related to labs and assignments,and all codes were uploaded after the assignment deadline
+* All codes are related to labs and assignments and all codes were uploaded after the assignment deadline
 
  ## Module Specification
 * Year: Session 2021-22
