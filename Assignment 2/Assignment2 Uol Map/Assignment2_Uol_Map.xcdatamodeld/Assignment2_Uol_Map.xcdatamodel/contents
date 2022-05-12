@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CampusCoredata" representedClassName="CampusCoredata" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String"/>
+        <attribute name="enabled" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imgefileName" optional="YES" attributeType="String"/>
+        <attribute name="information" optional="YES" attributeType="String"/>
+        <attribute name="lastModified" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="like" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="locationNotes" optional="YES" attributeType="String"/>
+        <attribute name="long" optional="YES" attributeType="String"/>
+        <attribute name="thumbnail" optional="YES" attributeType="URI"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="yearOfWork" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CampusCoredata" positionX="-63" positionY="-18" width="128" height="254"/>
+    </elements>
+</model>

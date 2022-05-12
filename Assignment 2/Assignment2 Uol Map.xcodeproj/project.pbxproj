@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96734BAA2764B9C70027D891 /* CampusCoredata+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96734BA82764B9C70027D891 /* CampusCoredata+CoreDataClass.swift */; };
+		96734BAB2764B9C70027D891 /* CampusCoredata+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96734BA92764B9C70027D891 /* CampusCoredata+CoreDataProperties.swift */; };
+		96AB38B22759981200C62134 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB38B12759981200C62134 /* dataModel.swift */; };
+		96B23339275EB7EA0067C7F4 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B23338275EB7EA0067C7F4 /* Artwork.swift */; };
+		96CC45F72758CA6B00DD4628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC45F62758CA6B00DD4628 /* AppDelegate.swift */; };
+		96CC45F92758CA6B00DD4628 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC45F82758CA6B00DD4628 /* SceneDelegate.swift */; };
+		96CC45FB2758CA6B00DD4628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC45FA2758CA6B00DD4628 /* ViewController.swift */; };
+		96CC45FE2758CA6B00DD4628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CC45FC2758CA6B00DD4628 /* Main.storyboard */; };
+		96CC46012758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96CC45FF2758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodeld */; };
+		96CC46032758CA6C00DD4628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC46022758CA6C00DD4628 /* Assets.xcassets */; };
+		96CC46062758CA6C00DD4628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CC46042758CA6C00DD4628 /* LaunchScreen.storyboard */; };
+		96CC460E2758DB7B00DD4628 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC460D2758DB7B00DD4628 /* DetailsViewController.swift */; };
+		96D421EE275D7ED800006026 /* UoL campus walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 96D421ED275D7ED800006026 /* UoL campus walk.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96734BA82764B9C70027D891 /* CampusCoredata+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CampusCoredata+CoreDataClass.swift"; sourceTree = "<group>"; };
+		96734BA92764B9C70027D891 /* CampusCoredata+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CampusCoredata+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96AB38B12759981200C62134 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		96B23338275EB7EA0067C7F4 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		96CC45F32758CA6B00DD4628 /* Assignment2 Uol Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment2 Uol Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC45F62758CA6B00DD4628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96CC45F82758CA6B00DD4628 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96CC45FA2758CA6B00DD4628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96CC45FD2758CA6B00DD4628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CC46002758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment2_Uol_Map.xcdatamodel; sourceTree = "<group>"; };
+		96CC46022758CA6C00DD4628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CC46052758CA6C00DD4628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CC46072758CA6C00DD4628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CC460D2758DB7B00DD4628 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		96D421ED275D7ED800006026 /* UoL campus walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "UoL campus walk.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CC45F02758CA6B00DD4628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96734BAC2764B9D00027D891 /* CampusCoredata */ = {
+			isa = PBXGroup;
+			children = (
+				96734BA82764B9C70027D891 /* CampusCoredata+CoreDataClass.swift */,
+				96734BA92764B9C70027D891 /* CampusCoredata+CoreDataProperties.swift */,
+			);
+			path = CampusCoredata;
+			sourceTree = "<group>";
+		};
+		96CC45EA2758CA6B00DD4628 = {
+			isa = PBXGroup;
+			children = (
+				96CC45F52758CA6B00DD4628 /* Assignment2 Uol Map */,
+				96CC45F42758CA6B00DD4628 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CC45F42758CA6B00DD4628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CC45F32758CA6B00DD4628 /* Assignment2 Uol Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CC45F52758CA6B00DD4628 /* Assignment2 Uol Map */ = {
+			isa = PBXGroup;
+			children = (
+				96734BAC2764B9D00027D891 /* CampusCoredata */,
+				96CC45F62758CA6B00DD4628 /* AppDelegate.swift */,
+				96CC45F82758CA6B00DD4628 /* SceneDelegate.swift */,
+				96CC45FA2758CA6B00DD4628 /* ViewController.swift */,
+				96B23338275EB7EA0067C7F4 /* Artwork.swift */,
+				96AB38B12759981200C62134 /* dataModel.swift */,
+				96CC460D2758DB7B00DD4628 /* DetailsViewController.swift */,
+				96CC45FC2758CA6B00DD4628 /* Main.storyboard */,
+				96CC46022758CA6C00DD4628 /* Assets.xcassets */,
+				96CC46042758CA6C00DD4628 /* LaunchScreen.storyboard */,
+				96CC46072758CA6C00DD4628 /* Info.plist */,
+				96CC45FF2758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodeld */,
+				96D421ED275D7ED800006026 /* UoL campus walk.gpx */,
+			);
+			path = "Assignment2 Uol Map";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CC45F22758CA6B00DD4628 /* Assignment2 Uol Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC460A2758CA6D00DD4628 /* Build configuration list for PBXNativeTarget "Assignment2 Uol Map" */;
+			buildPhases = (
+				96CC45EF2758CA6B00DD4628 /* Sources */,
+				96CC45F02758CA6B00DD4628 /* Frameworks */,
+				96CC45F12758CA6B00DD4628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment2 Uol Map";
+			productName = "Assignment2 Uol Map";
+			productReference = 96CC45F32758CA6B00DD4628 /* Assignment2 Uol Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CC45EB2758CA6B00DD4628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					96CC45F22758CA6B00DD4628 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 96CC45EE2758CA6B00DD4628 /* Build configuration list for PBXProject "Assignment2 Uol Map" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CC45EA2758CA6B00DD4628;
+			productRefGroup = 96CC45F42758CA6B00DD4628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CC45F22758CA6B00DD4628 /* Assignment2 Uol Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CC45F12758CA6B00DD4628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D421EE275D7ED800006026 /* UoL campus walk.gpx in Resources */,
+				96CC46062758CA6C00DD4628 /* LaunchScreen.storyboard in Resources */,
+				96CC46032758CA6C00DD4628 /* Assets.xcassets in Resources */,
+				96CC45FE2758CA6B00DD4628 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CC45EF2758CA6B00DD4628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CC45FB2758CA6B00DD4628 /* ViewController.swift in Sources */,
+				96734BAA2764B9C70027D891 /* CampusCoredata+CoreDataClass.swift in Sources */,
+				96CC45F72758CA6B00DD4628 /* AppDelegate.swift in Sources */,
+				96B23339275EB7EA0067C7F4 /* Artwork.swift in Sources */,
+				96CC46012758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodeld in Sources */,
+				96CC45F92758CA6B00DD4628 /* SceneDelegate.swift in Sources */,
+				96CC460E2758DB7B00DD4628 /* DetailsViewController.swift in Sources */,
+				96734BAB2764B9C70027D891 /* CampusCoredata+CoreDataProperties.swift in Sources */,
+				96AB38B22759981200C62134 /* dataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96CC45FC2758CA6B00DD4628 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CC45FD2758CA6B00DD4628 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CC46042758CA6C00DD4628 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CC46052758CA6C00DD4628 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CC46082758CA6C00DD4628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96CC46092758CA6C00DD4628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CC460B2758CA6D00DD4628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assignment2 Uol Map/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jason.Assignment2-Uol-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CC460C2758CA6D00DD4628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assignment2 Uol Map/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jason.Assignment2-Uol-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CC45EE2758CA6B00DD4628 /* Build configuration list for PBXProject "Assignment2 Uol Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC46082758CA6C00DD4628 /* Debug */,
+				96CC46092758CA6C00DD4628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC460A2758CA6D00DD4628 /* Build configuration list for PBXNativeTarget "Assignment2 Uol Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC460B2758CA6D00DD4628 /* Debug */,
+				96CC460C2758CA6D00DD4628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96CC45FF2758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96CC46002758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodel */,
+			);
+			currentVersion = 96CC46002758CA6B00DD4628 /* Assignment2_Uol_Map.xcdatamodel */;
+			path = Assignment2_Uol_Map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96CC45EB2758CA6B00DD4628 /* Project object */;
+}
