@@ -11,10 +11,12 @@
 * IDE: Xcode 13
 * All codes are related to labs and assignments and all codes were uploaded after the assignment deadline, all personal information is taken from the University's public website.
 
+⚠️Please adhere to the University's Academic Integrity Policy and I accept no responsibility for suspected academic misconduct of any kind.⚠️
+
  ## Module Specification
 * Year: Session 2021-22
 * Semester: First Semester
-* Lectuer: Mr P Jimmieson  Phil@liverpool.ac.uk (One of my favorite lecturers)
+* Lectuer: Mr P Jimmieson (One of my favorite lecturers)
 
  ## Module Results
 * Assignment 1: 86
