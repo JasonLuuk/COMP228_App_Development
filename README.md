@@ -11,7 +11,7 @@
 * IDE: Xcode 13
 * All codes are related to labs and assignments and all codes were uploaded after the assignment deadline, all personal information is taken from the University's public website.
 
-⚠️Please adhere to the University's Academic Integrity Policy and I accept no responsibility for suspected academic misconduct of any kind.⚠️
+⚠️Please adhere to the University's Academic Integrity Policy and I accept no responsibility for suspected academic misconduct of any kind.
 
  ## Module Specification
 * Year: Session 2021-22
